@@ -25,11 +25,7 @@ xsetroot -cursor_name left_ptr &
 
 # Commands at start up
 
-xrandr --output HDMI-0 --primary
-
-xrandr --output HDMI-0 --left-of DP-2
-
-feh --bg-fill /home/breaddy/Pictures/mojave-dusk.jpg
+feh --bg-fill 
 
 polybar &
 
@@ -39,4 +35,3 @@ dunst &
 
 fcitx -d &
 
-nordvpn connect Warsaw &
